@@ -1,0 +1,228 @@
+body {
+  background-color: #1a1a1a; /* Dark background for modern look */
+  color: #f5f5f5; /* Light text color for contrast */
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+
+nav {
+  background-color: #333;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+nav a {
+  color: #d4af37;
+  margin: 0 1.5rem;
+  text-decoration: none;
+  font-size: 1.2rem;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #f5f5f5; 
+}
+
+h1, h2 {
+  color: #d4af37; 
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #2c2c2c;
+  padding: 2rem;
+  border-radius: 10px;
+  max-width: 600px;
+  margin: 2rem auto;
+}
+
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 0.8rem;
+  margin: 0.5rem 0;
+  border: 1px solid #555;
+  border-radius: 5px;
+  background-color: #333;
+  color: #f5f5f5;
+}
+
+input[type="text"]::placeholder,
+textarea::placeholder {
+  color: #b3b3b3;
+}
+
+button {
+  background-color: #d4af37; 
+  color: #1a1a1a;
+  border: none;
+  padding: 0.8rem 2rem;
+  margin-top: 1rem;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #b28e2a; 
+}
+
+.recipe-card {
+  background-color: #333;
+  padding: 1.5rem;
+  margin: 1rem auto;
+  border-radius: 10px;
+  max-width: 400px;
+  color: #f5f5f5;
+}
+
+.recipe-card img {
+  width: 50%;
+  border-radius: 10px;
+}
+
+.recipe-card h2 {
+  color: #d4af37;
+}
+
+.recipe-card p {
+  color: #b3b3b3; 
+}
+
+.recipe-card button {
+  margin-top: 1rem;
+}
+
+.comment-section {
+  background-color: #2c2c2c;
+  padding: 1rem;
+  border-radius: 8px;
+  margin-top: 1rem;
+}
+
+.comment-section h3 {
+  color: #d4af37;
+}
+
+.comment-section input {
+  width: 80%;
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+  border: 1px solid #555;
+  background-color: #333;
+  color: #dac2c2;
+  border-radius: 5px;
+}
+.recipe-card {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh; 
+  padding: 1rem;
+}
+
+form {
+  width: 90%; 
+  max-width: 500px; 
+}
+
+.main-container {
+  max-width: 800px; 
+  margin: 0 auto; 
+  padding: 20px; 
+  box-sizing: border-box;
+}
+
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.star-rating {
+  font-size: 2rem;
+  color: #ddd;
+}
+
+.star {
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.star.filled {
+  color: gold;
+}
+
+.star:hover {
+  color: #ff9900;
+}
+.recipe-card {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin: 10px;
+  transition: all 0.3s ease;
+}
+.recipe-card h2 {
+  font-size: 1.5rem;
+}
+
+.recipe-card p {
+  font-size: 1rem;
+}
+
+.rating-container {
+  margin-bottom: 10px;  
+}
+
+.recipe-card .comment-section {
+  margin-top: 10px;
+}
+
+.recipe-card .star-rating {
+  margin-top: 10px;
+}
+
+.recipe-card button {
+  margin-top: 10px;
+}
+
+.recipe-card button:active {
+  background-color: #ddd;
+}
+
+.recipe-card .expanded {
+  background-color: #f0f0f0; 
+}
+
+.home-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  color: #fff; 
+  text-align: center;
+  background-image: url('https://media.istockphoto.com/id/1394055240/photo/happy-black-female-chef-preparing-food-in-frying-pan-at-restaurant-kitchen.jpg?s=612x612&w=0&k=20&c=6DjpoYqgYVDLmtj3-q7H7wvoiwkVgzi1rn7a_XUZ_Ng=');
+  background-repeat: no-repeat;
+}
+
+
+
+
+
+
+
+
+

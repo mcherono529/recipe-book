@@ -1,0 +1,165 @@
+{
+  "recipes": [
+    {
+      "id": "2",
+      "name": "Chicken Tikka Masala",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYo6i5Nif8pf7FCNWjwhnkG_CI1VXYLDaBUA&s",
+      "description": "A spicy and creamy Indian chicken dish with tomato-based sauce.",
+      "likes": 3,
+      "ingredients": [
+        "Chicken",
+        "Yogurt",
+        "Garam masala",
+        "Tomato sauce",
+        "Garlic",
+        "Ginger"
+      ],
+      "instructions": "Marinate chicken, cook in sauce with spices, simmer until done.",
+      "comments": [],
+      "rating": 4
+    },
+    {
+      "id": "3",
+      "name": "Classic Caesar Salad",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRq_QHLySdpuhk3weCNYHxYp6tc2naOquvCQQ&s",
+      "description": "A fresh salad with romaine lettuce, croutons, and Caesar dressing.",
+      "likes": 16,
+      "ingredients": [
+        "Romaine lettuce",
+        "Croutons",
+        "Parmesan cheese",
+        "Caesar dressing"
+      ],
+      "instructions": "Toss lettuce with dressing, add croutons and cheese.",
+      "comments": [],
+      "rating": 3
+    },
+    {
+      "id": "4",
+      "name": "Beef Tacos",
+      "image": "https://loveandgoodstuff.com/wp-content/uploads/2020/08/classic-ground-beef-tacos-1200x1200.jpg",
+      "description": "Ground beef tacos with traditional toppings in soft corn tortillas.",
+      "likes": 20,
+      "ingredients": [
+        "Ground beef",
+        "Taco seasoning",
+        "Tortillas",
+        "Lettuce",
+        "Cheese",
+        "Salsa"
+      ],
+      "instructions": "Cook beef with seasoning, assemble with toppings in tortillas.",
+      "comments": [],
+      "rating": 5
+    },
+    {
+      "id": "5",
+      "name": "Avocado Toast",
+      "image": "https://www.skinnytaste.com/wp-content/uploads/2015/01/Avocado-Toast-with-Egg-7-500x500.jpg",
+      "description": "Creamy avocado on toasted bread, topped with seeds and spices.",
+      "likes": 12,
+      "ingredients": [
+        "Bread",
+        "Avocado",
+        "Salt",
+        "Pepper",
+        "Chili flakes",
+        "Olive oil"
+      ],
+      "instructions": "Toast bread, spread avocado, add toppings to taste.",
+      "comments": [],
+      "rating": 4
+    },
+    {
+      "id": "6",
+      "name": "Chocolate Chip Cookies",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSuFaUe2_OoBJc8oDKmWRjfRIZesuf2morSA&s",
+      "description": "Classic chewy cookies loaded with chocolate chips.",
+      "likes": 45,
+      "ingredients": [
+        "Flour",
+        "Butter",
+        "Sugar",
+        "Brown sugar",
+        "Eggs",
+        "Chocolate chips",
+        "Vanilla extract"
+      ],
+      "instructions": "Mix ingredients, form cookies, bake at 350°F for 10-12 minutes.",
+      "comments": [],
+      "rating": 5
+    },
+    {
+      "id": "7",
+      "name": "Beef Stroganoff",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRV1cuNlqHWnsz9bdcxXM4EjOj98AGWXxhz-Q&s",
+      "description": "A rich and creamy Russian dish with tender beef and mushrooms.",
+      "likes": 10,
+      "ingredients": [
+        "Beef",
+        "Mushrooms",
+        "Onions",
+        "Sour cream",
+        "Butter",
+        "Garlic"
+      ],
+      "instructions": "Sauté beef and mushrooms, add sour cream sauce, and serve over noodles.",
+      "comments": [],
+      "rating": 4
+    },
+    {
+      "id": "8",
+      "name": "French Onion Soup",
+      "image": "https://www.simplyrecipes.com/thmb/pO8Mz9BAGEmAOBylOojpwbx8OHo=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Simply-Recipes-French-Onion-Soup-LEAD-06-00d3b5bcdf4a4261b89e1be4aedf90f3.jpg",
+      "description": "A classic French soup made with caramelized onions and topped with melted cheese.",
+      "likes": 22,
+      "ingredients": [
+        "Onions",
+        "Beef broth",
+        "Butter",
+        "Thyme",
+        "Baguette",
+        "Gruyere cheese"
+      ],
+      "instructions": "Caramelize onions, add broth, and top with cheese before broiling.",
+      "comments": [],
+      "rating": 2
+    },
+    {
+      "id": "9",
+      "name": "Sushi Rolls",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNlxClTgWSeEXC_pKBnrfczmFBBhNOXsQ8vQ&s",
+      "description": "Japanese sushi rolls made with rice, seaweed, and fresh fish or veggies.",
+      "likes": 50,
+      "ingredients": [
+        "Sushi rice",
+        "Nori",
+        "Salmon",
+        "Avocado",
+        "Cucumber",
+        "Soy sauce"
+      ],
+      "instructions": "Spread rice on nori, add fillings, and roll tightly. Slice and serve.",
+      "comments": [],
+      "rating": 3
+    },
+    {
+      "id": "10",
+      "name": "Vegetable Stir-Fry",
+      "image": "https://images.themodernproper.com/billowy-turkey/production/posts/VegetableStirFry_10.jpg?w=1200&q=82&auto=format&fit=crop&dm=1703377361&s=dcc5b387ddf86e293603e6c4adeba792",
+      "description": "A quick and healthy stir-fry with fresh vegetables and a savory sauce.",
+      "likes": 18,
+      "ingredients": [
+        "Broccoli",
+        "Bell peppers",
+        "Carrots",
+        "Soy sauce",
+        "Garlic",
+        "Ginger"
+      ],
+      "instructions": "Sauté veggies in garlic and ginger, add sauce, and cook until tender.",
+      "comments": [],
+      "rating": 5
+    }
+  ]
+}
