@@ -22,7 +22,7 @@ function RecipeForm({ setRecipe, fetchRecipes }) {
       description: ""
     };
   
-    fetch('https://json-server-recipes-1.onrender.com/recipes', {
+    fetch('https://json-server-recipes-3.onrender.com/recipes', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(newRecipe)

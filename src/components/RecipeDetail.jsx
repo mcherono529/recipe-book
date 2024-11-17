@@ -6,7 +6,7 @@ function RecipeDetail() {
   const [searchQuery, setSearchQuery] = useState(''); // State for search query
 
   useEffect(() => {
-    fetch('https://json-server-recipes-1.onrender.com/recipes')
+    fetch('https://json-server-recipes-3.onrender.com/recipes')
       .then(res => res.json())
       .then(data => setRecipe(data))
       .catch(error => console.error('Error fetching recipes:', error));
@@ -18,7 +18,7 @@ function RecipeDetail() {
         if (rec.id === id) {
           const updatedLikes = rec.likes + 1;
           try {
-            await fetch(`https://json-server-recipes-1.onrender.com/recipes/${id}`, {
+            await fetch(`https://json-server-recipes-3.onrender.com/recipes/${id}`, {
               method: 'PATCH',
               headers: { 'Content-Type': 'application/json' },
               body: JSON.stringify({ likes: updatedLikes }),
@@ -40,7 +40,7 @@ function RecipeDetail() {
         if (rec.id === id) {
           const updatedComments = [...rec.comments, newComment];
           try {
-            await fetch(`https://json-server-recipes-1.onrender.com/recipes/${id}`, {
+            await fetch(`https://json-server-recipes-3.onrender.com/recipes/${id}`, {
               method: 'PATCH',
               headers: { 'Content-Type': 'application/json' },
               body: JSON.stringify({ comments: updatedComments }),
@@ -58,7 +58,7 @@ function RecipeDetail() {
 
   const handleDelete = async (id) => {
     try {
-      await fetch(`https://json-server-recipes-1.onrender.com/recipes/${id}`, {
+      await fetch(`https://json-server-recipes-3.onrender.com/recipes/${id}`, {
         method: 'DELETE',
       });
       const updatedRecipe = recipe.filter((rec) => rec.id !== id);
@@ -73,7 +73,7 @@ function RecipeDetail() {
       recipe.map(async (rec) => {
         if (rec.id === id) {
           try {
-            await fetch(`https://json-server-recipes-1.onrender.com/recipes/${id}`, {
+            await fetch(`https://json-server-recipes-3.onrender.com/recipes/${id}`, {
               method: 'PATCH',
               headers: { 'Content-Type': 'application/json' },
               body: JSON.stringify({ rating: newRating }),
